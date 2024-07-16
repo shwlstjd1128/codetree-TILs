@@ -10,12 +10,12 @@ int main() {
     scanf(" %c %d",&c2,&tem2);
 
     if(c=='Y' && tem >= 37){
-        if((c1 =='Y' && tem2>=37) || (c2=='Y' && tem2>=37))
+        if((c1 =='Y' && tem1>=37) || (c2=='Y' && tem2>=37))
         printf("E");
         else
         printf("N");
     }
-    else if(c1=='Y' && tem1>=37 && c2=='Y' && tem2>=37)
+    else if((c1=='Y' && tem1>=37) && (c2=='Y' && tem2>=37))
     printf("E");
     else
     printf("N");
