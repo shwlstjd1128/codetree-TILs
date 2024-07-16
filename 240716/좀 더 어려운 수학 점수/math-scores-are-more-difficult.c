@@ -16,7 +16,13 @@ int main() {
     else if(mat == mat1 && eng > eng1){
         printf("A");
     }
-    else{
+    else if(mat > mat1 && eng < eng1 ){
+        printf("A");
+    }
+    else if(mat < mat1 && eng > eng1){
+        printf("B");
+    }
+    else if(mat == mat1 && eng < eng1){
         printf("B");
     }
 
