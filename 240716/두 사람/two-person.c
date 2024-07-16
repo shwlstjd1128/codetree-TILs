@@ -12,7 +12,7 @@ int main() {
     else if(b >= 19 && y == 'M'){
         printf("1");
     }
-    else if(a> b && x == y){
+    else if(a>= b && x == y){
         printf("1");
     }
     else{
