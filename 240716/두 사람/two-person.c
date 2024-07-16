@@ -6,17 +6,10 @@ int main() {
     char x,y;
     scanf("%d %c", &a,&x);
     scanf("%d %c", &b,&y);
-    if(a >= 19 && x == 'M'){
+    if ((a >= 19 && x == 'M') || (b >= 19 && y == 'M')){
         printf("1");
     }
-    else if(b >= 19 && y == 'M'){
-        printf("1");
-    }
-    else if(a>= b && x == y){
-        printf("1");
-    }
-    else{
+    else
         printf("0");
-    }
     return 0;
 }
