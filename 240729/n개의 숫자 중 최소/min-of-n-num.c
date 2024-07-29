@@ -14,6 +14,7 @@ int main() {
     for(int i = 0; i<n; i++){
         if(min>a[i]){
             min = a[i];
+            cnt = 1;
         }
         else if(a[i] == min){
             cnt++;
