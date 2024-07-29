@@ -10,10 +10,12 @@ int main() {
     }
 
     int min = a[0];
-    int cnt = 1;
+    int cnt = 0;
     for(int i = 0; i<n; i++){
         if(min>a[i]){
             min = a[i];
+        }
+        else if(a[i] == min){
             cnt++;
         }
     }
